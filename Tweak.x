@@ -3,7 +3,7 @@
 
 %ctor {
     // Masukkan token V3 Server Key kamu di sini
-    apiclient_set_token("F7fgqwpqmMGZdN03UkvyDTjjI+fuA1z0zQ2AcH+umwSNi0nwolEDstMEOrlEsxHyiUUj4M/7hRwYD6VApIf9c3kkgQYy6dWE/B69+eT5F0g=");
+    apiclient_set_token("Iv27mdQxgHyQrWaYNVLcMSk2X32iTsUBgQKuqe3IxB4xcsimEfDywubnfKb/rMlgk9KuNYDfQ12ZlwHV0BDjS++CUWVFIdByoNxWjSuB+tTxlFj5rQZHE6Mfz0rOVZ/QKmXHoExpjJsyoCwdhHcaGg==");
 
     // Verifikasi kunci saat dylib di-load
     apiclient_on_login("", ^(const char* json) {
