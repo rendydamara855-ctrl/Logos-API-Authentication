@@ -7,6 +7,7 @@ TWEAK_NAME = KeyChecker
 
 KeyChecker_FILES = Tweak.x
 KeyChecker_CFLAGS = -I./API -fobjc-arc
-KeyChecker_LDFLAGS = -L./API -lAPIClient
+KeyChecker_LDFLAGS = -L./API -lAPIClient -lc++
+KeyChecker_FRAMEWORKS = UIKit CoreFoundation
 
 include $(THEOS_MAKE_PATH)/tweak.mk
